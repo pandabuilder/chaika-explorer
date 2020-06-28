@@ -101,11 +101,6 @@ function App() {
                                   sortBy: 'desc',
                               },
                               {
-                                  label: 'Title',
-                                  dataField: 'title',
-                                  sortBy: 'asc',
-                              },
-                              {
                                   label: 'Posted Date (desc)',
                                   dataField: 'original_date',
                                   sortBy: 'desc',
@@ -117,12 +112,12 @@ function App() {
                               },
                               {
                                   label: 'Published Date (desc)',
-                                  dataField: 'original_date',
+                                  dataField: 'public_date',
                                   sortBy: 'desc',
                               },
                               {
                                   label: 'Published Date (asc)',
-                                  dataField: 'original_date',
+                                  dataField: 'public_date',
                                   sortBy: 'asc',
                               },
                               {
