@@ -2,6 +2,8 @@
 
 React/ElasticSearch app to dynamically search for archives on the [panda.chaika.moe](https://panda.chaika.moe) website.
 
+Check [.env.example](.env.example) for configuration details.
+
 ## Build from
 
 [GitXplore app](https://github.com/appbaseio-apps/gitxplore-app)

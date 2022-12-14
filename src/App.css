@@ -88,6 +88,11 @@
   border-radius: 4px;
 }
 
+.mode-btn {
+  border-color: #eff3f6;
+  border-style: solid;
+}
+
 .card-btn {
   background: #eff3f6;
   min-width: 70px;
@@ -98,10 +103,14 @@
   color: white;
 }
 
+.result-title {
+  white-space: normal;
+}
+
 .subtitle {
   width: 100%;
   line-height: 1.1rem;
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0;
@@ -265,10 +274,6 @@
 
   .navbar.active {
     height: 100vh;
-  }
-
-  .results-container {
-    width: 100%;
   }
 
   .data-search-container {
