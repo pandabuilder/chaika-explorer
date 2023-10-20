@@ -13,14 +13,14 @@ export const getFormatFromInterval = (interval: string) => {
 
 export const customQuery = (field: string, interval: string) => (
   {
-      "aggs": {
-        [field]: {
-          "date_histogram": {
-            "field": field,
-            "calendar_interval": interval,
-            "format": getFormatFromInterval(interval)
-          }
+    "aggs": {
+      [field]: {
+        "date_histogram": {
+          "field": field,
+          "calendar_interval": interval,
+          "format": getFormatFromInterval(interval)
         }
       }
+    }
   }
 );

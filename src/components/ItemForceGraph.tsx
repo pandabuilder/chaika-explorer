@@ -197,7 +197,7 @@ const ItemForceGraph = ({ data, indexConfig }: ForceGraphProps) => {
       nodeCanvasObject={
         (node: ItemNode, ctx) => {
           if (node.model === "Tag" && node.x && node.y) {
-            let label = node.label || 'none';
+            const label = node.label || 'none';
             // if(node.scope && node.name) {
             //   label = `${node.scope}|${node.name}`
             // }

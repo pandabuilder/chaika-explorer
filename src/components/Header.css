@@ -3,16 +3,14 @@
 }
 
 .col-big {
-    /*border: 1px solid;*/
     display: inline-block;
     box-sizing: border-box;
     width: 70%;
 }
 
 .col-small {
-    /*border: 1px solid;*/
     background: #29527a;
-    color: rgb(255, 255, 255);
+    color: rgb(255 255 255);
     display: inline-block;
     box-sizing: border-box;
     width: 30%;

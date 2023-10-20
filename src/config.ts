@@ -1,12 +1,12 @@
 import {indexConfigInfo} from "./types";
 
-export const mainSite = process.env.REACT_APP_MAIN_SITE;
+export const mainSite = import.meta.env.VITE_MAIN_SITE;
 
-export const indicesConfiguration: indexConfigInfo[] = Object.keys(process.env).filter(
-  x => x.startsWith("REACT_APP_INDEX_CONFIGURATION_")
+export const indicesConfiguration: indexConfigInfo[] = Object.keys(import.meta.env).filter(
+  x => x.startsWith("VITE_INDEX_CONFIGURATION_")
 ).map(
   (y) => {
-    const indexString = process.env[y]?.split(",");
+    const indexString = import.meta.env[y]?.split(",");
 
     if (indexString === undefined)
       return undefined;
